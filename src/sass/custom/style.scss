@@ -1,0 +1,14 @@
+@import "_variables";
+@import "header-component";
+@import "_products-component";
+@import "_videos-component";
+@import "_showcase-component";
+@import "_about-component";
+@import "_footer-component";
+
+body {
+  background-color: $primary;
+  color: $primary;
+}
+
+

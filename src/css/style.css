@@ -1,18 +1,4 @@
-body {
-  background-color: #fff;
-  color: #fff; }
-
-.bg-dark {
-  opacity: 0.7; }
-
-#top-logo {
-  height: 24px;
-  width: 212px; }
-
-.nav-item {
-  text-transform: uppercase; }
-
-#home {
+#main-header {
   background: url(/src/img/top-background.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,22 +10,15 @@ body {
 
 #main-logo {
   color: #bea67c;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 12px; }
 
-#learn-more {
-  border-radius: 0;
-  text-transform: uppercase;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  letter-spacing: 3px;
-  font-size: 1rem; }
-
-div.card {
+#products-head-section div.card {
   color: #000;
   border: none;
   position: relative; }
 
-div.card::before {
+#products-head-section div.card::before {
   content: '';
   width: 80px;
   height: 2px;
@@ -48,7 +27,7 @@ div.card::before {
   top: 50px;
   left: -80px; }
 
-div.card::after {
+#products-head-section div.card::after {
   content: '';
   width: 40px;
   height: 4px;
@@ -57,14 +36,146 @@ div.card::after {
   top: 80px;
   left: -40px; }
 
-#learn-more-white {
+.btn-outline-dark {
   border: none;
   border-radius: 0;
   border-bottom: 3px solid #bea67c;
   text-transform: uppercase;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   letter-spacing: 3px;
   font-size: 1rem; }
 
-#furniture-img {
+#furniture-img,
+#decor-img {
   box-shadow: 0 0 10px #333; }
+
+#video-head-section div.card {
+  color: #000;
+  border: none;
+  position: relative; }
+
+#video-head-section .container {
+  padding-top: 50px; }
+
+#video-head-section .card-title::after {
+  content: '';
+  width: 80px;
+  height: 4px;
+  background: #bea67c;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0); }
+
+#video-head-section .video img {
+  background-color: #bea67c;
+  border-radius: 50%;
+  padding: 4px; }
+
+#video-head-section .video-info {
+  position: relative;
+  margin-top: 5px; }
+
+#video-head-section .video-info::after {
+  content: '';
+  width: 80px;
+  height: 4px;
+  background: #bea67c;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  transform: translate(-50%, 0); }
+
+#showcase-head-section {
+  background: url(/src/img/showcase-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+  position: relative; }
+
+#showcase-head-section .container {
+  padding-top: 50px; }
+
+#showcase-head-section div.card {
+  color: #fff;
+  border-radius: 0;
+  padding: 100px 200px 100px 50px;
+  border: 1px solid #bea67c;
+  position: relative; }
+
+#showcase-head-section #main-video {
+  height: 500px; }
+
+.btn-outline-light {
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1rem; }
+
+svg.video-overlay-play-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 700px;
+  width: 700px;
+  opacity: 0.1; }
+
+#showcase-head-section div.card::before {
+  content: '';
+  width: 120px;
+  height: 2px;
+  background: #bcbcbc;
+  position: absolute;
+  top: 120px;
+  left: -80px; }
+
+#showcase-head-section div.card::after {
+  content: '';
+  width: 40px;
+  height: 4px;
+  background: #bea67c;
+  position: absolute;
+  top: 200px;
+  left: 0px; }
+
+#about-head-section div.card {
+  color: #000;
+  border: none;
+  position: relative; }
+
+#about-head-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: url(/src/img/footer-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 500px;
+  position: relative; }
+
+#about-us-img {
+  box-shadow: 0 0 10px #333; }
+
+#about-head-section div.card::before {
+  content: '';
+  width: 200px;
+  height: 2px;
+  background: #bcbcbc;
+  position: absolute;
+  top: 50px;
+  left: -200px; }
+
+#about-head-section div.card::after {
+  content: '';
+  width: 40px;
+  height: 4px;
+  background: #bea67c;
+  position: absolute;
+  top: 110px;
+  left: -40px; }
+
+footer#main-footer {
+  background-color: #000; }
+
+body {
+  background-color: #fff;
+  color: #fff; }

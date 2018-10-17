@@ -1,0 +1,42 @@
+
+#video-head-section div.card {
+  color: #000;
+  border: none;
+  position: relative;
+}
+
+#video-head-section .container{
+  padding-top: 50px;
+}
+
+#video-head-section .card-title::after {
+  content:'';
+  width: 80px;
+  height:4px;
+  background:$designed;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#video-head-section .video img {
+  background-color: $designed;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+#video-head-section .video-info {
+  position: relative;
+  margin-top: 5px;
+}
+
+#video-head-section .video-info::after {
+  content:'';
+  width: 80px;
+  height: 4px;
+  background: $designed;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  transform: translate(-50%, 0);
+}

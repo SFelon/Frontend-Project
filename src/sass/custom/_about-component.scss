@@ -1,0 +1,40 @@
+#about-head-section div.card {
+  color: #000;
+  border: none;
+  position: relative;
+}
+
+#about-head-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: url(/src/img/footer-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 500px;
+  position: relative;
+}
+
+#about-us-img {
+  box-shadow: 0 0 10px #333;
+}
+
+#about-head-section div.card::before {
+  content:'';
+  width:200px;
+  height:2px;
+  background: #bcbcbc;
+  position:absolute;
+  top: 50px;
+  left:-200px;
+}
+
+#about-head-section div.card::after {
+  content:'';
+  width:40px;
+  height:4px;
+  background:$designed;
+  position:absolute;
+  top: 110px;
+  left:-40px;
+}

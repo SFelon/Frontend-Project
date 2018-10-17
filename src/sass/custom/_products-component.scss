@@ -1,0 +1,39 @@
+#products-head-section div.card {
+  color: #000;
+  border: none;
+  position: relative;
+}
+
+#products-head-section div.card::before {
+  content: '';
+  width: 80px;
+  height: 2px;
+  background: #bcbcbc;
+  position: absolute;
+  top: 50px;
+  left: -80px;
+}
+
+#products-head-section div.card::after {
+  content: '';
+  width: 40px;
+  height: 4px;
+  background: $designed;
+  position: absolute;
+  top: 80px;
+  left: -40px;
+}
+
+.btn-outline-dark {
+  border: none;
+  border-radius: 0;
+  border-bottom: 3px solid $designed;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1rem;
+}
+
+#furniture-img,
+#decor-img {
+  box-shadow: 0 0 10px #333;
+}

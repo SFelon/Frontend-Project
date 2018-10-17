@@ -1,0 +1,17 @@
+#main-header {
+  background: url(/src/img/top-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+#home .home-inner{
+  padding-top: 150px;
+}
+
+#main-logo {
+  color: $designed;
+  font-weight: 400;
+  letter-spacing: 12px;
+}

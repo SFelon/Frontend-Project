@@ -1,0 +1,60 @@
+#showcase-head-section {
+  background: url(/src/img/showcase-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+  position: relative;
+}
+
+#showcase-head-section .container {
+  padding-top: 50px;
+}
+
+#showcase-head-section div.card {
+  color: #fff;
+  border-radius: 0;
+  padding: 100px 200px 100px 50px;
+  border: 1px solid $designed;
+  position: relative;
+}
+
+#showcase-head-section #main-video {
+  height: 500px;
+}
+
+.btn-outline-light {
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1rem;
+}
+
+svg.video-overlay-play-button {
+  position: absolute;
+  right:0;
+  top:0;
+  height: 700px;
+  width: 700px;
+  opacity: 0.1;
+}
+
+#showcase-head-section div.card::before {
+  content:'';
+  width:120px;
+  height:2px;
+  background: #bcbcbc;
+  position:absolute;
+  top: 120px;
+  left:-80px;
+}
+
+#showcase-head-section div.card::after {
+  content:'';
+  width:40px;
+  height:4px;
+  background:$designed;
+  position:absolute;
+  top: 200px;
+  left: 0px;
+}
